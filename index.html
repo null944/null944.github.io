@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiya Shao - Homepage</title>
+    <style>
+        :root { --link-color: #0366d6; --text-color: #24292e; --border-color: #eaecef; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text-color); margin: 0; padding: 0; background-color: #fff; }
+        .container { max-width: 960px; margin: 0 auto; padding: 40px 20px; display: flex; flex-wrap: wrap; }
+        
+        /* Sidebar */
+        .sidebar { flex: 0 0 240px; margin-right: 40px; }
+        .avatar { width: 230px; height: 230px; border-radius: 50%; object-fit: cover; border: 1px solid var(--border-color); }
+        .name { font-size: 26px; font-weight: 600; margin: 20px 0 5px; }
+        .title { font-size: 15px; color: #666; margin-bottom: 20px; line-height: 1.4; }
+        .contact { list-style: none; padding: 0; font-size: 14px; }
+        .contact li { margin-bottom: 8px; display: flex; align-items: center; }
+        .contact a { color: var(--text-color); text-decoration: none; }
+        .contact a:hover { color: var(--link-color); }
+
+        /* Main Content */
+        .main { flex: 1; min-width: 300px; }
+        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 30px; font-size: 22px; display: flex; align-items: center; }
+        h2 span { margin-right: 10px; font-size: 20px; }
+        section { margin-bottom: 30px; }
+        
+        .pub-item { margin-bottom: 20px; }
+        .pub-title { font-weight: 600; color: #000; display: block; }
+        .pub-author { font-size: 15px; margin: 4px 0; }
+        .pub-author b { text-decoration: underline; color: #000; }
+        .pub-venue { font-style: italic; color: #555; font-size: 15px; }
+        .pub-links { margin-top: 5px; }
+        .pub-links a { font-size: 13px; color: var(--link-color); text-decoration: none; margin-right: 12px; border: 1px solid var(--link-color); padding: 2px 8px; border-radius: 4px; background-color: #f6f8fa; }
+        .pub-links a:hover { background: var(--link-color); color: #fff; border-color: var(--link-color); }
+
+        .list-item { margin-bottom: 10px; font-size: 15px; }
+        .date { font-weight: 600; color: #444; margin-right: 10px; font-style: italic; }
+
+        @media (max-width: 768px) { .container { flex-direction: column; align-items: center; } .sidebar { margin-right: 0; text-align: center; margin-bottom: 40px; } .contact li { justify-content: center; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="e7ac40e5e47114814dde69c30f20fcbe.jpg" alt="Xiya Shao" class="avatar">
+            <div class="name">Xiya Shao</div>
+            <div class="title">
+                Master's Student<br>
+                National College of Excellence Engineers<br>
+                Shandong University
+            </div>
+            
+            <div style="font-size: 14px; margin-bottom: 15px; font-weight: 600; color: #444;">
+                Data Security & Privacy
+            </div>
+
+            <ul class="contact">
+                <li>✉️ <a href="mailto:shaoxiya@mail.sdu.edu.cn">shaoxiya@mail.sdu.edu.cn</a></li>
+                <li>🐙 <a href="https://github.com/null944" target="_blank">GitHub</a></li>
+                <li>📍 Jinan / Qingdao, China</li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <section>
+                <p>Hi, I am Xiya Shao, a first-year Master's student at the <strong>National College of Excellence Engineers, Shandong University</strong>. My research interest primarily focuses on <strong>Data Security, Privacy Protection, and Local Differential Privacy (LDP)</strong>.</p>
+                <p>Prior to this, I obtained my bachelor's degree in Cyber Security in 2025 from the School of Cyber Science and Technology, Shandong University.</p>
+            </section>
+
+            <section>
+                <h2><span>🔥</span> News</h2>
+                <div class="list-item"><span class="date">2026.04:</span> 🎉 One paper is published by <strong>SIGMOD 2025</strong>!</div>
+            </section>
+
+            <section>
+                <h2><span>📝</span> Selected Publications</h2>
+                <div class="pub-item">
+                    <span class="pub-title">Correlation-Aware Optimized Local Differential Privacy Framework</span>
+                    <p class="pub-author">[Peng Tang], <b>Xiya Shao</b>, [Rui Chen]</p>
+                    <p class="pub-venue">ACM SIGMOD International Conference on Management of Data (SIGMOD), 2025</p>
+                    <div class="pub-links">
+                        <a href="https://dl.acm.org/doi/10.1145/3786647" target="_blank">[Paper]</a>
+                        <a href="https://github.com/null944/enhanced-accuracy-in-ldp" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2><span>📖</span> Educations</h2>
+                <div class="list-item"><span class="date">2025.09 - Present</span> Master's Student, National College of Excellence Engineers, Shandong University</div>
+                <div class="list-item"><span class="date">2021.09 - 2025.06</span> Bachelor of Engineering in Cyber Security, School of Cyber Science and Technology, Shandong University</div>
+            </section>
+
+            <section>
+                <h2><span>🏅</span> Honors and Awards</h2>
+                <ul style="padding-left: 20px; font-size: 15px;">
+                    <li style="margin-bottom: 8px;"><em>2026</em> Third Prize, Huawei Software Elite Challenge.</li>
+                    <li style="margin-bottom: 8px;"><em>2025</em> First Prize (University Level), FinTech Competition.</li>
+                    <li style="margin-bottom: 8px;"><em>2023</em> National Second Prize (Top 0.6%), Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).</li>
+                    <li style="margin-bottom: 8px;"><em>2023</em> "Newcomer Award", Vulnerability Mining Ladder Competition.</li>
+                    <li style="margin-bottom: 8px;"><em>2022</em> Second Prize, Asia and Pacific Mathematical Contest in Modeling (APMCM).</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
